@@ -574,6 +574,7 @@ MonoBehaviour:
   tb: {fileID: 11400000, guid: 2de15a9ab9d20b34e88c15ae4c577930, type: 2}
   player: {fileID: 1615030261}
   test: {x: 0, y: 0, z: 0}
+  appitite: 1
 --- !u!1001 &1733886752
 Prefab:
   m_ObjectHideFlags: 0
@@ -641,7 +642,7 @@ GameObject:
   - component: {fileID: 2104460848}
   m_Layer: 0
   m_Name: MapController
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,7 +659,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tilemap: {fileID: 1301533160}
-  tb: {fileID: 11400000, guid: b4cb2b9482be01f449ae494b5c4c3984, type: 2}
+  highfood: {fileID: 11400000, guid: b4cb2b9482be01f449ae494b5c4c3984, type: 2}
+  midfood: {fileID: 11400000, guid: b1b15ead9de2064488a7765140295cfb, type: 2}
+  lowfood: {fileID: 11400000, guid: 2de15a9ab9d20b34e88c15ae4c577930, type: 2}
 --- !u!4 &2104460849
 Transform:
   m_ObjectHideFlags: 0
